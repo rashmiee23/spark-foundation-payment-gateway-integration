@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	color: white;
+}
+#particles-js {
+	height: 100%;
+	background: url('Children.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.particles-js-canvas-el {
+	position: absolute;
+}
+.text {
+	justify-content: left;
+	margin: 30px;
+	font-size: 30px;
+	color: #ffffff;
+	width: 50%;
+	margin-left: -20px;
+}
+nav {
+	width: 100%;
+	background: rgba(161, 111, 138, 0.5);
+	position: fixed;
+	top: 0;
+	height: 70px;
+}
+nav > h1 {
+	font-family: sans-serif;
+	color: rgb(249, 249, 249);
+	margin-left: 15px;
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+form > h1 {
+	color: #aba6bac1;
+}
+form {
+	text-align: center;
+}
+footer {
+	width: 100%;
+	background: rgba(255, 77, 205, 0.5);
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer > h3 {
+	color: #4d0000;
+	margin: 0px;
+}
